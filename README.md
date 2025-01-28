@@ -1,27 +1,16 @@
-Here’s the translation of your text to English:  
-
----
-
-# Portfolio V5  
+# Portfolio  
 Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+Let me introduce myself, I am Masab Qurban, a Front-End Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
 
 **Tech Stack used:**  
-- ReactJS  
+- ReactJS
+- Next JS
+- Laravel  
 - Tailwind CSS  
-- AOS  
-- Firebase  
 - Framer Motion  
 - Lucide  
-- Material UI  
-- SweetAlert2  
+- Material UI    
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
-
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
-
----
 
 # Tutorial: Running the Project  
 
@@ -39,7 +28,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
+   git clone link
    ```  
 
 2. **Install all dependencies:**  
@@ -87,7 +76,7 @@ If you encounter issues while running the project, ensure that:
 - All dependencies are installed without errors.  
 
 ---
-
+<!-- 
 ## Firebase Configuration  
 
 To configure Firebase for this project, follow these steps:  
@@ -115,4 +104,4 @@ To configure Firebase for this project, follow these steps:
 6. **Update `firebase.js` and `firebase-comment.js` Files:**  
    - Replace the `firebaseConfig` content with your Firebase configuration.  
 
----
+--- -->
