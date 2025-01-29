@@ -31,7 +31,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone --link of Repository--
+   git clone https://github.com/masabqurban/masab-qurban-portfolio.git
    ```  
 
 2. **Install all dependencies:**  
