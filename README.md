@@ -1,17 +1,20 @@
-# Portfolio  
+# React + Vite  
 Hello everyone!  
-Let me introduce myself, I am Masab Qurban, a Front-End Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
+Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
 
 **Tech Stack used:**  
-- ReactJS
-- Next JS
-- Laravel  
-- Tailwind CSS  
+- ReactJS  
+- Tailwind CSS
+- AOS  
 - Framer Motion  
 - Lucide  
 - Material UI    
+- SweetAlert2
 
+Website Link:
+https://www.masabqurban-portfolio.vercel.app/
 
+We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
 # Tutorial: Running the Project  
 
 Here’s a simple guide to run this project.  
@@ -28,7 +31,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone link
+   git clone --link of Repository--
    ```  
 
 2. **Install all dependencies:**  
