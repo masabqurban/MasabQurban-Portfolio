@@ -106,7 +106,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                 />
             </div>
 
-            <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
+            {/* <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
                 <label className="block text-sm font-medium text-white">
                     Profile Photo <span className="text-gray-400">(optional)</span>
                 </label>
@@ -154,7 +154,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
                         </div>
                     )}
                 </div>
-            </div>
+            </div> */}
 
             <button
                 type="submit"
@@ -278,7 +278,7 @@ const Komentar = () => {
                 <CommentForm onSubmit={handleCommentSubmit} isSubmitting={isSubmitting} error={error} />
             </div>
 
-            <div className="space-y-4 h-[300px] overflow-y-auto custom-scrollbar" data-aos="fade-up" data-aos-delay="200">
+            <div className="space-y-4 h-[500px] overflow-y-auto custom-scrollbar" data-aos="fade-up" data-aos-delay="200">
                 {comments.length === 0 ? (
                     <div className="text-center py-8" data-aos="fade-in">
                         <UserCircle2 className="w-12 h-12 text-indigo-400 mx-auto mb-3 opacity-50" />
