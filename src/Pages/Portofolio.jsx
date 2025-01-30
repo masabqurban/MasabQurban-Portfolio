@@ -183,7 +183,7 @@ export default function FullWidthTabs() {
       "Link": "https://tool-matrix.vercel.app/",
       "Img": "/tool matrix dark.png",
       "TechStack": [
-          "Python", "React JS" , "Node JS", "Tailwind CSS", "Gemini API", "GitHub", "Vercel"
+          "Python", "React JS" , "Node JS", "Tailwind CSS", "Gemini API", "Vite", "GitHub", "Vercel"
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "A web-based platform developed in React JS, Node JS, Python and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature.",
@@ -199,7 +199,7 @@ export default function FullWidthTabs() {
     "Link": "https://pngtotext.com/",
     "Img": "/pngtotext dark.png",
     "TechStack": [
-        "Laravel", "JavaScript" , "Tailwind CSS", "Figma", "MySQL", "GitHub"
+        "Laravel", "JavaScript" , "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
     ],
     "Github": "https://github.com/masabqurban",
     "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
@@ -215,7 +215,7 @@ export default function FullWidthTabs() {
   "Link": "https://masab-qurban-portfolio.vercel.app/",
   "Img": "/portfolio1.png",
   "TechStack": [
-      "React JS", "Matter JS" , "Tailwind CSS", "Framer Motion", "GitHub", "Vercel"
+      "React JS", "Matter JS" , "Tailwind CSS", "Framer Motion", "Vite", "GitHub", "Vercel"
   ],
   "Github": "https://github.com/masabqurban",
   "Description": "My portfolio integrates Matter.js to bring interactive physics to life. Using Matter.js, I’ve created a dynamic environment where objects move with the cursor, influenced by gravity-like forces, and even magnetic effects. This adds a layer of realism and engagement, offering an immersive experience that showcases my skills in combining design and physics for web interactivity.",
