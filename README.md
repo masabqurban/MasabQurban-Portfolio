@@ -12,7 +12,7 @@ Let me introduce myself, I am Masab Qurban, a Web Developer specializing in crea
 - SweetAlert2
 
 Website Link:
-https://www.masabqurban-portfolio.vercel.app/
+https://masabqurban-portfolio.vercel.app/
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
 # Tutorial: Running the Project  
@@ -31,7 +31,7 @@ Ensure that you have already installed:
 1. **Download this project:**  
 
    ```bash  
-   git clone --link of Repository--
+   git clone https://github.com/masabqurban/masab-qurban-portfolio.git
    ```  
 
 2. **Install all dependencies:**  
