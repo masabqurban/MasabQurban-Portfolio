@@ -3,13 +3,16 @@ Hello everyone!
 Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
 
 **Tech Stack used:**  
-- ReactJS  
+- ReactJS 
+- Vite 
 - Tailwind CSS
+- Firebase
 - AOS  
 - Framer Motion  
 - Lucide  
 - Material UI    
 - SweetAlert2
+- Vercel
 
 Website Link:
 https://masabqurban-portfolio.vercel.app/
