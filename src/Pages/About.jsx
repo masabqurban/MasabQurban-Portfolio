@@ -214,7 +214,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Web Developer with expertise in React.js, PHP, Laravel, and Tailwind CSS, skilled in building responsive, dynamic, and user-friendly web applications, optimizing performance, and integrating modern frameworks. Proficient in JavaScript, and cross-browser compatibility, with a strong focus on delivering clean, scalable code and enhancing user experience.
+              Web Developer with expertise in React JS, Next JS, Laravel, and Tailwind CSS, skilled in building responsive, dynamic, and user-friendly web applications, optimizing performance, and integrating modern frameworks. Proficient in JavaScript, and cross-browser compatibility, with a strong focus on delivering clean, scalable code and enhancing user experience.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">

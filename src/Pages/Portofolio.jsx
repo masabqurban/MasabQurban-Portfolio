@@ -190,6 +190,22 @@ export default function FullWidthTabs() {
       "Title": "Tool Matrix (FYP)"
   },
   {
+    "id": "portfolio",
+    "Features": [
+      "Interactive Physics: Objects move and react dynamically with the cursor, influenced by gravity and magnetic forces.",
+      "Realistic Gravity and Magnetism: Simulates natural physics, creating immersive and engaging interactions.",
+      "Fluid Animations: Smooth transitions and object movements enhance user experience with Matter.js-powered effects."
+    ],
+    "Link": "https://masab-qurban-portfolio.vercel.app/",
+    "Img": "/portfolio1.png",
+    "TechStack": [
+      "React JS", "Matter JS" , "Tailwind CSS", "Framer Motion", "Vite", "GitHub", "Vercel"
+    ],
+    "Github": "https://github.com/masabqurban",
+    "Description": "My portfolio integrates Matter.js to bring interactive physics to life. Using Matter.js, I’ve created a dynamic environment where objects move with the cursor, influenced by gravity-like forces, and even magnetic effects. This adds a layer of realism and engagement, offering an immersive experience that showcases my skills in combining design and physics for web interactivity.",
+    "Title": "Animated Portfolio"
+  },
+  {
     "id": "png-to-text",
     "Features": [
         "A versatile web platform designed to simplify file processing with tools for image conversion, compression, and text extraction.",
@@ -206,20 +222,84 @@ export default function FullWidthTabs() {
     "Title": "PNG to Text"
 },
 {
-  "id": "portfolio",
+  "id": "snowdreamstudios",
   "Features": [
-      "Interactive Physics: Objects move and react dynamically with the cursor, influenced by gravity and magnetic forces.",
-      "Realistic Gravity and Magnetism: Simulates natural physics, creating immersive and engaging interactions.",
-      "Fluid Animations: Smooth transitions and object movements enhance user experience with Matter.js-powered effects."
+    "A Swiss-based digital studio offering a visually immersive experience with fluid animations, interactive elements, and a modern design powered by Framer Motion and Tailwind CSS.",
+    "Showcases a comprehensive portfolio, including case studies, projects, services, and team insights, all presented in a structured and visually appealing way.",
+    "Built with Next.js for fast load times, optimized performance, and seamless navigation, ensuring a top-tier user experience across devices."
   ],
-  "Link": "https://masab-qurban-portfolio.vercel.app/",
-  "Img": "/portfolio1.png",
+  "Link": "https://snowdreamstudios.com/",
+  "Img": "/snowdreamstudios.png",
   "TechStack": [
-      "React JS", "Matter JS" , "Tailwind CSS", "Framer Motion", "Vite", "GitHub", "Vercel"
+    "Next.js", "Tailwind CSS", "JavaScript", "Framer Motion", "Figma", "GitHub", "Vercel"
   ],
   "Github": "https://github.com/masabqurban",
-  "Description": "My portfolio integrates Matter.js to bring interactive physics to life. Using Matter.js, I’ve created a dynamic environment where objects move with the cursor, influenced by gravity-like forces, and even magnetic effects. This adds a layer of realism and engagement, offering an immersive experience that showcases my skills in combining design and physics for web interactivity.",
-  "Title": "Animated Portfolio"
+  "Description": "Snow Dream Studios is a Swiss-based digital studio blending cutting-edge tech with stunning design. Built with Next.js, Tailwind CSS, Framer Motion, and JavaScript, and hosted on Vercel, it delivers a visually rich, interactive experience. The platform features smooth animations, a modern design, and a comprehensive portfolio, including case studies, services, career opportunities, and team insights. With intuitive design and optimized performance, it sets a new standard for corporate websites.",
+  "Title": "Snow Dream Studios"
+},
+{
+  "id": "estorefoam",
+  "Features": [
+    "Users can input foam measurements to instantly generate a visual representation of the foam’s size and shape, enhancing the shopping experience.",
+    "Offers a wide variety of foam materials, including polyurethane and polyethylene, cut to any shape or size, catering to diverse industries.",
+    "Built with PHP Laravel and Tailwind CSS, the website features a sleek, user-friendly design with seamless navigation for easy browsing and purchasing."
+  ],
+  "Link": "https://estorefoam.co.uk/",
+  "Img": "/estorefoam.png",
+  "TechStack": [
+    "Laravel", "Tailwind CSS", "JavaScript", "Figma", "GitHub"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "Estorefoam, the UK’s largest online foam supplier since 2000, has a revamped e-commerce platform built with PHP Laravel and Tailwind CSS. The website offers custom foam visualization, allowing users to input measurements and see a visual representation of their foam. With over 25 years of expertise, it provides high-quality foam materials, including polyurethane and polyethylene, cut to any shape or size. Catering to upholsterers, crafters, and more, the platform combines modern design, functionality, and ease of use for an exceptional shopping experience.",
+  "Title": "Estorefoam"
+},
+{
+  "id": "sds-erp",
+  "Features": [
+    "Centralizes business operations, including project management, resource allocation, and client data, for improved efficiency and collaboration.",
+    "Provides real-time analytics and reporting tools, enabling data-driven decision-making and better tracking of studio performance.",
+    "Built with PHP Laravel and Tailwind CSS, the ERP system features a sleek, modern interface with intuitive navigation for seamless workflow management."
+  ],
+  "Link": "https://erp.snowdreamstudios.com/",
+  "Img": "/ERP.png",
+  "TechStack": [
+    "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "The SDS ERP system is a powerful, centralized platform designed to streamline operations for Snow Dream Studios. Built with PHP Laravel and Tailwind CSS, it offers tools for managing projects, resources, and client data with precision. The system includes real-time analytics and reporting features, empowering data-driven decisions and performance tracking. With its modern, user-friendly interface, the SDS ERP enhances collaboration and workflow efficiency, ensuring seamless operations for the studio’s creative and business needs.",
+  "Title": "SDS - ERP"
+},
+{
+  "id": "sbs-rms",
+  "Features": [
+    "A mobile-friendly POS system designed for seamless order management, payment processing, and real-time inventory tracking on the go.",
+    "Provides real-time sales analytics and reporting tools, enabling businesses to make data-driven decisions and optimize performance.",
+    "Built with PHP Laravel and Tailwind CSS, the RMS system features a sleek, modern interface with intuitive navigation for quick and efficient transactions."
+  ],
+  "Link": "https://snowdreamstudios.com/",
+  "Img": "/RMS.png",
+  "TechStack": [
+    "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "The SBS RMS is a robust Mobile POS system designed to streamline retail and hospitality operations. Built with PHP Laravel and Tailwind CSS, it offers tools for order management, payment processing, and real-time inventory tracking. The system includes real-time sales analytics and reporting features, empowering businesses to make data-driven decisions and optimize performance. With its modern, user-friendly interface, the SBS RMS ensures quick and efficient transactions, making it an ideal solution for businesses on the go.",
+  "Title": "SBS - RMS"
+},
+{
+  "id": "sbs-crm",
+  "Features": [
+    "A comprehensive CRM system designed to manage client relationships, track leads, and streamline communication for brokers and agents.",
+    "Provides real-time analytics and reporting tools, enabling brokers to make data-driven decisions and optimize client engagement strategies.",
+    "Built with PHP Laravel and Tailwind CSS, the CRM system features a sleek, modern interface with intuitive navigation for efficient client and lead management."
+  ],
+  "Link": "https://snowdreamstudios.com/",
+  "Img": "/CRM.png",
+  "TechStack": [
+    "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "The SBS CRM is a powerful broker system designed to enhance client relationship management for brokers and agents. Built with PHP Laravel and Tailwind CSS, it offers tools for tracking leads, managing client interactions, and streamlining communication. The system includes real-time analytics and reporting features, empowering brokers to make data-driven decisions and optimize engagement strategies. With its modern, user-friendly interface, the SBS CRM ensures efficient client and lead management, making it an essential tool for brokers in the real estate and financial industries.",
+  "Title": "SBS - CRM"
 }
 ]
  useEffect (() => {
