@@ -260,7 +260,7 @@ export default function FullWidthTabs() {
     "Provides real-time analytics and reporting tools, enabling data-driven decision-making and better tracking of studio performance.",
     "Built with PHP Laravel and Tailwind CSS, the ERP system features a sleek, modern interface with intuitive navigation for seamless workflow management."
   ],
-  "Link": "https://erp.snowdreamstudios.com/",
+  "Link": "https://snowdreamstudios.com/",
   "Img": "/ERP.png",
   "TechStack": [
     "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
