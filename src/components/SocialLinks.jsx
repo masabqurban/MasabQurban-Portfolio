@@ -120,7 +120,7 @@ const SocialLinks = () => {
         </a>
 
 
-        {/* Second Row - Instagram & facebook */}
+        {/* Second Row - Instagram & X */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <a
             href='https://x.com/masab_qurban'
@@ -137,7 +137,7 @@ const SocialLinks = () => {
               <div className="absolute inset-0 opacity-20 rounded-lg transition-all duration-500
                            group-hover:scale-125 group-hover:opacity-30"
                 style={{ backgroundColor: '#fff' }} />
-              <div className="relative p-2 rounded-lg transition-all duration-500 group-hover:scale-125">
+              <div className="relative p-2 rounded-lg transition-all duration-500 group-hover:scale-110">
                 <svg className="w-5 h-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                   <path
                     fill="#fff"
