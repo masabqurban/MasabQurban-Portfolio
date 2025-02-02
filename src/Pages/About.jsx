@@ -118,10 +118,11 @@ const AboutPage = () => {
     const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
     const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
     
-    const startDate = new Date("2023-04-01");
+    const startDate = new Date("2024-02-01");
     const today = new Date();
-    const experience = today.getFullYear() - startDate.getFullYear() -
-      (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
+    // Calculate the difference in months
+    const totalMonths = (today.getFullYear() - startDate.getFullYear()) * 12 + (today.getMonth() - startDate.getMonth());
+    const experience = (totalMonths / 12).toFixed(1); // Convert months to years with 1 decimal place
 
     return {
       totalProjects: storedProjects.length,

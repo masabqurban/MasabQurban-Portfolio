@@ -105,14 +105,15 @@ const techStacks = [
   { icon: "css.svg", language: "CSS" },
   { icon: "javascript.svg", language: "JavaScript" },
   { icon: "tailwind.svg", language: "Tailwind CSS" },
-  { icon: "reactjs.svg", language: "ReactJS" },
-  { icon: "next-js.svg", language: "NextJS" },
+  { icon: "reactjs.svg", language: "React JS" },
+  { icon: "next-js.svg", language: "Next JS" },
   { icon: "laravellogo.svg", language: "Laravel" },
   { icon: "vite.svg", language: "Vite" },
   // { icon: "nodejs.svg", language: "Node JS" },
   // { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "firebase.svg", language: "Firebase" },
   { icon: "MUI.svg", language: "Material UI" },
+  { icon: "framer.svg", language: "Framer Motion" },
   { icon: "SweetAlert.svg", language: "SweetAlert2" },
   { icon: "vercel.svg", language: "Vercel" },
 ];
@@ -135,9 +136,9 @@ export default function FullWidthTabs() {
   }, []);
 
   // const fetchData = useCallback(async () => {
-  //   try {
-  //     const projectCollection = collection(db, "projects");
-  //     const certificateCollection = collection(db, "certificates");
+    //   try {
+      //     const projectCollection = collection(db, "projects");
+      //     const certificateCollection = collection(db, "certificates");
       
   //     const [projectSnapshot, certificateSnapshot] = await Promise.all([
   //       getDocs(projectCollection),
@@ -145,40 +146,40 @@ export default function FullWidthTabs() {
   //     ]);
       
   //     const projectData = projectSnapshot.docs.map((doc) => ({
-  //       id: doc.id,
+    //       id: doc.id,
   //       ...doc.data(),
   //       TechStack: doc.data().TechStack || [],
   //     }));
       
   //     console.log("abc123", projectData);
   //     const certificateData = certificateSnapshot.docs.map((doc) => doc.data());
-
+  
   //     setProjects(projectData);
   //     setCertificates(certificateData);
-
+  
   //     // Store in localStorage
   //     localStorage.setItem("projects", JSON.stringify(projectData));
   //     localStorage.setItem("certificates", JSON.stringify(certificateData));
   //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
-  // }, []);
-
-  // useEffect(() => {
-  //   fetchData();
-  // }, [fetchData]);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
+    //     console.error("Error fetching data:", error);
+    //   }
+    // }, []);
+    
+    // useEffect(() => {
+      //   fetchData();
+      // }, [fetchData]);
+      
+      const handleChange = (event, newValue) => {
+        setValue(newValue);
   };
- projects = [
-  
+  projects = [
+    
     {
       "id": "tool-matrix",
       "Features": [
-          "AI-powered handwriting recognition using a Python-based model integrated with the Gemini API, achieving 95% accuracy in solving handwritten math problems.",
-          "A visually appealing and dynamic web platform designed for seamless interaction and an optimal user experience.",
-          "Comprehensive calculators for various domains, catering to a wide range of user needs."
+        "AI-powered handwriting recognition using a Python-based model integrated with the Gemini API, achieving 95% accuracy in solving handwritten math problems.",
+        "A visually appealing and dynamic web platform designed for seamless interaction and an optimal user experience.",
+        "Comprehensive calculators for various domains, catering to a wide range of user needs."
       ],
       "Link": "https://tool-matrix.vercel.app/",
       "Img": "/tool matrix dark.png",
@@ -188,7 +189,7 @@ export default function FullWidthTabs() {
       "Github": "https://github.com/masabqurban",
       "Description": "A web-based platform developed in React JS, Node JS, Python and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature.",
       "Title": "Tool Matrix (FYP)"
-  },
+    },
   {
     "id": "portfolio",
     "Features": [
@@ -215,13 +216,13 @@ export default function FullWidthTabs() {
     "Link": "https://pngtotext.com/",
     "Img": "/pngtotext dark.png",
     "TechStack": [
-        "Laravel", "JavaScript" , "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
+      "Laravel", "JavaScript" , "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
     ],
     "Github": "https://github.com/masabqurban",
     "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
     "Title": "PNG to Text"
-},
-{
+  },
+  {
   "id": "snowdreamstudios",
   "Features": [
     "A Swiss-based digital studio offering a visually immersive experience with fluid animations, interactive elements, and a modern design powered by Framer Motion and Tailwind CSS.",
