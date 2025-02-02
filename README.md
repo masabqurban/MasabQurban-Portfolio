@@ -18,6 +18,11 @@ Website Link:
 https://masabqurban-portfolio.vercel.app/
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
+
+### Project Status: 🚀  
+- **Project Created:** 29/01/2025    
+- **Live Release Date:** 31/01/2025
+
 # Tutorial: Running the Project  
 
 Here’s a simple guide to run this project.  
