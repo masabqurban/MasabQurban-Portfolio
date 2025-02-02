@@ -2,6 +2,10 @@
 Hello everyone!  
 Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
 
+### Project Status: 🚀  
+- **Project Created:** 29/01/2025    
+- **Live Release Date:** 31/01/2025
+
 **Tech Stack used:**  
 - ReactJS 
 - Vite 
@@ -18,10 +22,6 @@ Website Link:
 https://masabqurban-portfolio.vercel.app/
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
-
-### Project Status: 🚀  
-- **Project Created:** 29/01/2025    
-- **Live Release Date:** 31/01/2025
 
 # Tutorial: Running the Project  
 
