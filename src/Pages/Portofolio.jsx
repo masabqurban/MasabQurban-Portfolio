@@ -188,7 +188,7 @@ export default function FullWidthTabs() {
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "A web-based platform developed in React JS, Node JS, Python and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature.",
-      "Title": "Tool Matrix (FYP)"
+      "Title": "Tool Matrix (Final Year Project)"
     },
   {
     "id": "portfolio",
