@@ -220,7 +220,7 @@ export default function FullWidthTabs() {
     ],
     "Github": "https://github.com/masabqurban",
     "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
-    "Title": "PNG to Text"
+    "Title": "PNG to TEXT"
   },
   {
   "id": "snowdreamstudios",
