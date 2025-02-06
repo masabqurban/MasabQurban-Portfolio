@@ -204,7 +204,7 @@ export default function FullWidthTabs() {
     ],
     "Github": "https://github.com/masabqurban",
     "Description": "My portfolio integrates Matter.js to bring interactive physics to life. Using Matter.js, I’ve created a dynamic environment where objects move with the cursor, influenced by gravity-like forces, and even magnetic effects. This adds a layer of realism and engagement, offering an immersive experience that showcases my skills in combining design and physics for web interactivity.",
-    "Title": "Animated Portfolio"
+    "Title": "MotionCode Portfolio"
   },
   {
     "id": "png-to-text",
