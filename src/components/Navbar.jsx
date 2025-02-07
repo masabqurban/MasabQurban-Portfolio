@@ -91,7 +91,7 @@ const Navbar = () => {
                         onClick={(e) => scrollToSection(e, "#Home")}
                         className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
                     >
-                        <img className="h-16 w-16 mt-6" src="../Mlogo1.svg" alt="" />
+                        <img className="h-10 w-10 sm:h-16 sm:w-16 mt-6" src="../Mlogo1.svg" alt="" />
                     </a>
                 </div>
     
