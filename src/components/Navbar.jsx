@@ -71,7 +71,7 @@ const Navbar = () => {
             isOpen
                 ? "bg-[#030014] opacity-100"
                 : scrolled
-                ? "bg-[#030014]/50 backdrop-blur-xl"
+                ? "bg-[#030014]/50 backdrop-blur-xl pb-6"
                 : "bg-transparent"
         }`}
     >
@@ -79,18 +79,25 @@ const Navbar = () => {
             <div className="flex items-center justify-between h-16">
                 {/* Logo */}
                 <div className="flex-shrink-0">
-                    <a
+                    {/* <a
                         href="#Home"
                         onClick={(e) => scrollToSection(e, "#Home")}
                         className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
                     >
                         Masab
+                    </a> */}
+                    <a
+                        href="#Home"
+                        onClick={(e) => scrollToSection(e, "#Home")}
+                        className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
+                    >
+                        <img className="h-16 w-16 mt-6" src="../Mlogo1.svg" alt="" />
                     </a>
                 </div>
     
                 {/* Desktop Navigation */}
                 <div className="hidden md:block">
-                    <div className="ml-8 flex items-center space-x-8">
+                    <div className="ml-8 flex items-center space-x-8 mt-3">
                         {navItems.map((item) => (
                             <a
                                 key={item.label}
