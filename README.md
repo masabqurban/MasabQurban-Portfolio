@@ -1,7 +1,8 @@
 # React + Vite  
 ## My Modern Portfolio
+#### Modern Animations & Professional Showcase | React + Firebase
 Hello everyone!  
-Let me introduce myself, I am Masab Qurban, a Web Developer specializing in creating interactive, responsive, and visually appealing user interfaces. Explore my work here!.  
+Welcome to My Modern Portfolio, a polished developer portfolio with sleek AOS animations, Firebase integration, and modern UI components. Focused on UI/UX, scalability, and professional presentation.
 
 ### Project Status: 🚀  
 - **Project Created:** 29/01/2025    
