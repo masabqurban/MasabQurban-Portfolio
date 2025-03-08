@@ -188,7 +188,7 @@ export default function FullWidthTabs() {
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "A web-based platform developed in React JS, Node JS, Python and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature.",
-      "Title": "Tool Matrix (Final Year Project)"
+      "Title": "Tool Matrix (FYP)"
     },
   {
     "id": "portfolio",
@@ -261,7 +261,7 @@ export default function FullWidthTabs() {
     "Provides real-time analytics and reporting tools, enabling data-driven decision-making and better tracking of studio performance.",
     "Built with PHP Laravel and Tailwind CSS, the ERP system features a sleek, modern interface with intuitive navigation for seamless workflow management."
   ],
-  "Link": "https://snowdreamstudios.com/",
+  "Link": "",
   "Img": "/ERP.png",
   "TechStack": [
     "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
@@ -277,7 +277,7 @@ export default function FullWidthTabs() {
     "Provides real-time sales analytics and reporting tools, enabling businesses to make data-driven decisions and optimize performance.",
     "Built with PHP Laravel and Tailwind CSS, the RMS system features a sleek, modern interface with intuitive navigation for quick and efficient transactions."
   ],
-  "Link": "https://snowdreamstudios.com/",
+  "Link": "",
   "Img": "/RMS.png",
   "TechStack": [
     "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
@@ -293,7 +293,7 @@ export default function FullWidthTabs() {
     "Provides real-time analytics and reporting tools, enabling brokers to make data-driven decisions and optimize client engagement strategies.",
     "Built with PHP Laravel and Tailwind CSS, the CRM system features a sleek, modern interface with intuitive navigation for efficient client and lead management."
   ],
-  "Link": "https://snowdreamstudios.com/",
+  "Link": "",
   "Img": "/CRM.png",
   "TechStack": [
     "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
@@ -301,6 +301,70 @@ export default function FullWidthTabs() {
   "Github": "https://github.com/masabqurban",
   "Description": "The SBS CRM is a powerful broker system designed to enhance client relationship management for brokers and agents. Built with PHP Laravel and Tailwind CSS, it offers tools for tracking leads, managing client interactions, and streamlining communication. The system includes real-time analytics and reporting features, empowering brokers to make data-driven decisions and optimize engagement strategies. With its modern, user-friendly interface, the SBS CRM ensures efficient client and lead management, making it an essential tool for brokers in the real estate and financial industries.",
   "Title": "SBS - CRM"
+},
+{
+  "id": "shopease",
+  "Features": [
+    "Seamless client management with order history tracking, automated customer segmentation, and real-time communication tools for sellers.",
+    "Real-time sales metrics, inventory insights, and customer behavior reports to optimize pricing and marketing strategies.",
+    "Scalable, responsive frontend and backend architecture with a user-friendly interface for effortless browsing and checkout experiences."
+  ],
+  "Link": "",
+  "Img": "/ShopEase.png",
+  "TechStack": [
+    "Next JS", "Tailwind CSS", "TypeScript", "GitHub"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "ShopEase is a modern E-Commerce platform crafted as a personal project, leveraging Next.js, TypeScript, and Tailwind CSS for a performant and visually polished experience. It showcases dynamic product catalogs, real-time inventory management, and a secure checkout process with integrated payment gateways. The platform includes smooth animations, personalized user dashboards, and AI-powered product recommendations for tailored shopping journeys. Built with clean code architecture and mobile-first responsiveness, ShopEase emphasizes intuitive navigation, fast load times, and developer-friendly scalability, serving as a robust showcase of full-stack development and modern design practices.",
+  "Title": "ShopEase"
+},
+{
+  "id": "mind-vs-machine",
+  "Features": [
+    "Adaptive AI opponent that learns from your moves, making each game more challenging and engaging. Also includes a multiplayer mode for real-time matches against friends.",
+    "Keyboard and touch controls provide flexible gameplay, allowing players to use arrow keys and Enter for precise moves or tap for smooth interactions on any device.",
+    "Dark and light mode toggle lets you switch themes for a comfortable visual experience, ensuring clear visibility and reduced eye strain in any lighting condition."
+  ],
+  "Link": "https://mind-vs-machine-tic-tac-toe-game.vercel.app/",
+  "Img": "/mind vs machine.png",
+  "TechStack": [
+    "React JS", "Tailwind CSS", "JavaScript", "GitHub", "Vercel"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "A modern twist on the classic Tic Tac Toe game, built with React.js and JavaScript and styled using Tailwind CSS. This game features an intelligent AI opponent with adaptive difficulty, challenging players to think strategically. It also includes a multiplayer mode for real-time competitive matches and move analytics to help refine strategies. The sleek, retro-modern design ensures a visually appealing experience, while touch-friendly controls make it accessible across all devices. With full keyboard navigation support, players can effortlessly place their moves using arrow keys and the Enter key. A built-in dark and light mode toggle enhances visibility and comfort, allowing for seamless gameplay in any environment.",
+  "Title": "Mind vs Machine Game"
+},
+{
+  "id": "snap-puzzle-game",
+  "Features": [
+    "Players can upload their own images to create personalized puzzles, making each game unique and more engaging.",
+    "The game records the number of moves and completion time, helping players analyze their performance and improve their skills.",
+    "Features adaptive difficulty scaling, smooth animations, and logic-testing grids for a challenging yet enjoyable puzzle-solving experience."
+  ],
+  "Link": "https://snap-puzzle-game.vercel.app/",
+  "Img": "/snap puzzle game 1.png",
+  "TechStack": [
+    "React JS", "Tailwind CSS", "JavaScript", "GitHub", "Vercel"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "A fast-paced puzzle game built with React.js and JavaScript, styled with Tailwind CSS. Features drag-and-drop tile mechanics and dynamic difficulty scaling. Includes smooth animations, a minimalist UI, and a progress tracker with scoreboards. Players can upload custom images to generate unique puzzles, adding a personal touch to the gameplay. The game also tracks moves and time, allowing players to analyze their performance and improve their puzzle-solving skills. Designed for cross-device play, it combines logic-testing grids with vibrant visuals for an engaging brain-teasing experience.",
+  "Title": "Snap Puzzle Game"
+},
+{
+  "id": "wormhole-snake-game",
+  "Features": [
+    "Wormhole portals, speed boosts, and maze challenges add unique twists to traditional snake gameplay, making each level more dynamic and unpredictable.",
+    "Keyboard-based movement with precise controls ensures smooth navigation and responsiveness, allowing players to maneuver the snake with accuracy and ease.",
+    "Global leaderboard system tracks high scores and player rankings, encouraging competition and replayability as users strive to improve their performance."
+  ],
+  "Link": "https://wormhole-snake-game.vercel.app/",
+  "Img": "/wormhole snake game.png",
+  "TechStack": [
+    "React JS", "Tailwind CSS", "JavaScript", "GitHub", "Vercel"
+  ],
+  "Github": "https://github.com/masabqurban",
+  "Description": "A retro-inspired arcade game built with React.js and JavaScript, styled with Tailwind CSS. It enhances classic snake gameplay with wormhole portals, speed boosts, and maze challenges, adding new layers of excitement. The game features fluid animations, smooth controls, and dynamic obstacles for an engaging experience. Players can navigate using keyboard arrow keys for precise movement. A global leaderboard system tracks high scores, encouraging competitive play. Optimized for performance, it blends nostalgic mechanics with modern physics for a fast-paced, gravity-defying adventure.",
+  "Title": "Wormhole Snake Game"
 }
 ]
  useEffect (() => {
