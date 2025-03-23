@@ -316,7 +316,7 @@ export default function FullWidthTabs() {
   ],
   "Github": "https://github.com/masabqurban",
   "Description": "Sertify is a modern, secure admin panel designed exclusively for Dubai-based legal professionals, developed using React.js for a dynamic frontend and Node.js for a robust backend. It streamlines case management, client communication, document handling, and appointment scheduling with an intuitive interface. Features include role-based access, real-time updates, encrypted data storage, and compliance with UAE legal standards. Built for scalability, Sertify empowers law firms to enhance productivity, organize workflows, and deliver seamless client services while adhering to Dubai’s regulatory requirements.", 
-  "Title": "Sertify"
+  "Title": "Sertify App"
 },
 {
   "id": "ZENE",
@@ -332,7 +332,7 @@ export default function FullWidthTabs() {
   ],
   "Github": "https://github.com/masabqurban",
   "Description": "Zene is a comprehensive all-in-one vendor admin panel built with React.js and Node.js, enabling seamless management of services, real estate, e-commerce, orders, and transactions. It offers a unified dashboard with real-time inventory tracking, automated workflows, and integrated multi-payment gateways, all secured by end-to-end encryption. Designed for scalability, Zene simplifies cross-industry operations with customizable roles, audit trails, and compliance tools for businesses in Dubai and beyond.", 
-  "Title": "ZENE"
+  "Title": "ZENE App"
 },
 {
   "id": "0NE",
@@ -348,7 +348,7 @@ export default function FullWidthTabs() {
   ],
   "Github": "https://github.com/masabqurban",
   "Description": "0NE is a holistic health management platform developed with React.js and Node.js, offering real-time tracking of weight, steps, water intake, calories (burned/consumed), and personalized exercise guides with step-by-step video tutorials. It features interactive graphs for trend analysis, AI-driven health recommendations, and goal-setting tools. Built with end-to-end encryption, the app ensures secure storage of sensitive health data while providing cross-device synchronization. Ideal for fitness enthusiasts and healthcare providers, 0NE simplifies wellness journeys with actionable insights and compliance with global health standards.", 
-  "Title": "0NE"
+  "Title": "0NE App"
 },
 {
   "id": "shopease",
