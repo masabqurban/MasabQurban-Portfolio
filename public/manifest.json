@@ -1,0 +1,48 @@
+{
+    "id": "/",
+    "name": "Masab Qurban - Portfolio",
+    "short_name": "Masab Qurban",
+    "description": "Portfolio of Masab Qurban, a Front-End Web Developer specializing in React and modern web technologies.",
+    "start_url": ".",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#030014",
+    "theme_color": "rgb(3,0,20)",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "preview-image.png",
+            "sizes": "3840x2160",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshot-portrait.png",
+            "sizes": "824x1766",
+            "type": "image/png"
+        }
+    ],
+    "categories": [
+        "portfolio",
+        "education",
+        "developer"
+    ]
+}
