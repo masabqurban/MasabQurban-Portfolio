@@ -8,12 +8,19 @@
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#030014",
-    "theme_color": "rgb(3,0,20)",
+    "theme_color": "#030014",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png", 
+            "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
         },
         {
             "src": "/android-chrome-512x512.png",
@@ -37,7 +44,8 @@
         {
             "src": "/screenshot-portrait.png",
             "sizes": "824x1766",
-            "type": "image/png"
+            "type": "image/png",
+            "form_factor": "narrow"
         }
     ],
     "categories": [
