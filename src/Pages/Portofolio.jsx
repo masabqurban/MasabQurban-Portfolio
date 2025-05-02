@@ -107,9 +107,9 @@ const techStacks = [
   { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "reactjs.svg", language: "React JS" },
   { icon: "next-js.svg", language: "Next JS" },
+  { icon: "nodejs.svg", language: "Node JS" },
   { icon: "laravellogo.svg", language: "Laravel" },
   { icon: "vite.svg", language: "Vite" },
-  // { icon: "nodejs.svg", language: "Node JS" },
   // { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "firebase.svg", language: "Firebase" },
   { icon: "MUI.svg", language: "Material UI" },
@@ -198,29 +198,13 @@ export default function FullWidthTabs() {
         "Built with Next.js for fast load times, optimized performance, and seamless navigation, ensuring a top-tier user experience across devices."
       ],
       "Link": "https://snowdreamstudios.com/",
-      "Img": "/snowdreamstudios.png",
+      "Img": "/snowdreamstudios.ch_en_.png",
       "TechStack": [
         "Next.js", "Tailwind CSS", "JavaScript", "Framer Motion", "Figma", "GitHub", "Vercel"
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "Snow Dream Studios is a Swiss-based digital studio blending cutting-edge tech with stunning design. Built with Next.js, Tailwind CSS, Framer Motion, and JavaScript, and hosted on Vercel, it delivers a visually rich, interactive experience. The platform features smooth animations, a modern design, and a comprehensive portfolio, including case studies, services, career opportunities, and team insights. With intuitive design and optimized performance, it sets a new standard for corporate websites.",
       "Title": "Snow Dream Studios"
-    },
-    {
-      "id": "png-to-text",
-      "Features": [
-        "A versatile web platform designed to simplify file processing with tools for image conversion, compression, and text extraction.",
-        "Enhanced file handling through integrated features that streamline image optimization and text extraction tasks.",
-        "Efficient processing with advanced tools that improve workflow and save time in handling various file types."
-      ],
-      "Link": "https://pngtotext.com/",
-      "Img": "/pngtotext dark.png",
-      "TechStack": [
-        "Laravel", "JavaScript", "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
-      ],
-      "Github": "https://github.com/masabqurban",
-      "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
-      "Title": "PNG to TEXT"
     },
     {
       "id": "estorefoam",
@@ -239,6 +223,39 @@ export default function FullWidthTabs() {
       "Title": "Estorefoam"
     },
     {
+      "id": "zoa-vet",
+      "Features": [
+        "Role-based dashboard (Admin, Veterinarian, Client) for managing patients, appointments, medical records, and billing.",
+        "Integrated accounts system with secure authentication, invoicing, and prescription tracking for seamless clinic operations.",
+        "Real-time data visualization (appointments, revenue) and automated reminders to improve workflow efficiency.",
+        "Built with Laravel for robust backend logic and a responsive UI for desktop/mobile clinic staff."
+      ],
+      "Link": "https://zoa.ai/",  
+      "Img": "/zoa.ai_ (1).png",  
+      "TechStack": [
+        "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "GitHub"
+      ],
+      "Github": "https://github.com/masabqurban",  // Update if private
+      "Description": "ZOA is a comprehensive Veterinary Clinic Management System designed to streamline operations for clinics, veterinarians, and pet owners. Developed with Laravel, it features role-based access (admins, doctors, clients), patient record management, appointment scheduling, and an integrated billing system. The dashboard provides real-time analytics, automated reminders, and prescription tracking, replacing manual processes with a secure, scalable digital solution. Ideal for modern veterinary practices seeking efficiency and improved patient care.",
+      "Title": "ZOA – Veterinary Clinic System"
+    },
+    {
+      "id": "png-to-text",
+      "Features": [
+        "A versatile web platform designed to simplify file processing with tools for image conversion, compression, and text extraction.",
+        "Enhanced file handling through integrated features that streamline image optimization and text extraction tasks.",
+        "Efficient processing with advanced tools that improve workflow and save time in handling various file types."
+      ],
+      "Link": "https://pngtotext.com/",
+      "Img": "/pngtotext dark.png",
+      "TechStack": [
+        "Laravel", "JavaScript", "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
+      ],
+      "Github": "https://github.com/masabqurban",
+      "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
+      "Title": "PNG to TEXT"
+    },
+    {
       "id": "sds-erp",
       "Features": [
         "Centralizes business operations, including project management, resource allocation, and client data, for improved efficiency and collaboration.",
@@ -251,24 +268,8 @@ export default function FullWidthTabs() {
         "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
       ],
       "Github": "https://github.com/masabqurban",
-      "Description": "The SDS ERP system is a powerful, centralized platform designed to streamline operations for Snow Dream Studios. Built with PHP Laravel and Tailwind CSS, it offers tools for managing projects, resources, and client data with precision. The system includes real-time analytics and reporting features, empowering data-driven decisions and performance tracking. With its modern, user-friendly interface, the SDS ERP enhances collaboration and workflow efficiency, ensuring seamless operations for the studio’s creative and business needs.",
-      "Title": "SDS - ERP"
-    },
-    {
-      "id": "sbs-rms",
-      "Features": [
-        "A mobile-friendly POS system designed for seamless order management, payment processing, and real-time inventory tracking on the go.",
-        "Provides real-time sales analytics and reporting tools, enabling businesses to make data-driven decisions and optimize performance.",
-        "Built with PHP Laravel and Tailwind CSS, the RMS system features a sleek, modern interface with intuitive navigation for quick and efficient transactions."
-      ],
-      "Link": "",
-      "Img": "/RMS.png",
-      "TechStack": [
-        "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
-      ],
-      "Github": "https://github.com/masabqurban",
-      "Description": "The SBS RMS is a robust Mobile POS system designed to streamline retail and hospitality operations. Built with PHP Laravel and Tailwind CSS, it offers tools for order management, payment processing, and real-time inventory tracking. The system includes real-time sales analytics and reporting features, empowering businesses to make data-driven decisions and optimize performance. With its modern, user-friendly interface, the SBS RMS ensures quick and efficient transactions, making it an ideal solution for businesses on the go.",
-      "Title": "SBS - RMS"
+      "Description": "The SDS Enterprise Resource Planning (ERP) system is a powerful, centralized platform designed to streamline operations for Snow Dream Studios. Built with PHP Laravel and Tailwind CSS, it offers tools for managing projects, resources, and client data with precision. The system includes real-time analytics and reporting features, empowering data-driven decisions and performance tracking. With its modern, user-friendly interface, the SDS ERP enhances collaboration and workflow efficiency, ensuring seamless operations for the studio’s creative and business needs.",
+      "Title": "SDS - ERP System"
     },
     {
       "id": "sbs-crm",
@@ -283,8 +284,24 @@ export default function FullWidthTabs() {
         "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
       ],
       "Github": "https://github.com/masabqurban",
-      "Description": "The SBS CRM is a powerful broker system designed to enhance client relationship management for brokers and agents. Built with PHP Laravel and Tailwind CSS, it offers tools for tracking leads, managing client interactions, and streamlining communication. The system includes real-time analytics and reporting features, empowering brokers to make data-driven decisions and optimize engagement strategies. With its modern, user-friendly interface, the SBS CRM ensures efficient client and lead management, making it an essential tool for brokers in the real estate and financial industries.",
-      "Title": "SBS - CRM"
+      "Description": "The SBS Customer Relationship Management (CRM) is a powerful broker system designed to enhance client relationship management for brokers and agents. Built with PHP Laravel and Tailwind CSS, it offers tools for tracking leads, managing client interactions, and streamlining communication. The system includes real-time analytics and reporting features, empowering brokers to make data-driven decisions and optimize engagement strategies. With its modern, user-friendly interface, the SBS CRM ensures efficient client and lead management, making it an essential tool for brokers in the real estate and financial industries.",
+      "Title": "SBS - CRM System"
+    },
+    {
+      "id": "sbs-rms",
+      "Features": [
+        "A mobile-friendly POS system designed for seamless order management, payment processing, and real-time inventory tracking on the go.",
+        "Provides real-time sales analytics and reporting tools, enabling businesses to make data-driven decisions and optimize performance.",
+        "Built with PHP Laravel and Tailwind CSS, the RMS system features a sleek, modern interface with intuitive navigation for quick and efficient transactions."
+      ],
+      "Link": "",
+      "Img": "/RMS.png",
+      "TechStack": [
+        "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
+      ],
+      "Github": "https://github.com/masabqurban",
+      "Description": "The SBS Mobile Repairing Management System (RMS) is a robust Mobile POS system designed to streamline retail and hospitality operations. Built with PHP Laravel and Tailwind CSS, it offers tools for order management, payment processing, and real-time inventory tracking. The system includes real-time sales analytics and reporting features, empowering businesses to make data-driven decisions and optimize performance. With its modern, user-friendly interface, the SBS RMS ensures quick and efficient transactions, making it an ideal solution for businesses on the go.",
+      "Title": "SBS - RMS System"
     },
     {
       "id": "Sertify",
@@ -300,7 +317,7 @@ export default function FullWidthTabs() {
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "Sertify is a modern, secure admin panel designed exclusively for Dubai-based legal professionals, developed using React.js for a dynamic frontend and Node.js for a robust backend. It streamlines case management, client communication, document handling, and appointment scheduling with an intuitive interface. Features include role-based access, real-time updates, encrypted data storage, and compliance with UAE legal standards. Built for scalability, Sertify empowers law firms to enhance productivity, organize workflows, and deliver seamless client services while adhering to Dubai’s regulatory requirements.",
-      "Title": "Sertify App"
+      "Title": "Sertify"
     },
     {
       "id": "ZENE",
@@ -316,7 +333,7 @@ export default function FullWidthTabs() {
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "Zene is a comprehensive all-in-one vendor admin panel built with React.js and Node.js, enabling seamless management of services, real estate, e-commerce, orders, and transactions. It offers a unified dashboard with real-time inventory tracking, automated workflows, and integrated multi-payment gateways, all secured by end-to-end encryption. Designed for scalability, Zene simplifies cross-industry operations with customizable roles, audit trails, and compliance tools for businesses in Dubai and beyond.",
-      "Title": "ZENE App"
+      "Title": "ZENE"
     },
     {
       "id": "0NE",
@@ -332,7 +349,7 @@ export default function FullWidthTabs() {
       ],
       "Github": "https://github.com/masabqurban",
       "Description": "0NE is a holistic health management platform developed with React.js and Node.js, offering real-time tracking of weight, steps, water intake, calories (burned/consumed), and personalized exercise guides with step-by-step video tutorials. It features interactive graphs for trend analysis, AI-driven health recommendations, and goal-setting tools. Built with end-to-end encryption, the app ensures secure storage of sensitive health data while providing cross-device synchronization. Ideal for fitness enthusiasts and healthcare providers, 0NE simplifies wellness journeys with actionable insights and compliance with global health standards.",
-      "Title": "0NE App"
+      "Title": "0NE Life Style"
     },
     {
       "id": "portfolio",
