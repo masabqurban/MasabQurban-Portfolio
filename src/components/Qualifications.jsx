@@ -24,19 +24,19 @@ const Qualifications = () => {
           title: "Bachelor of Science in Computer Science (Honours)",
           institution: "Government College University, Faisalabad, Pakistan",
           year: "2020 - 2024",
-          marks: "CGPA: 3.55/4.00",
+          marks: "CGPA: 3.45/4.00",
         },
         {
           title: "Intermediate of Computer Science (ICS)",
           institution: "Tips College of Science, Faisalabad, Pakistan",
           year: "2018 - 2020",
-          // marks: "Marks: 70%",
+          // marks: "Marks: 69%",
         },
         {
           title: "Matriculation in Science",
           institution: "Government High School, Sheikhupura, Pakistan",
           year: "2015 - 2017",
-          // marks: "Marks: 89%",
+          // marks: "Marks: 74%",
         },
       ],
     },
@@ -99,7 +99,7 @@ const Qualifications = () => {
             <Box
               key={qual.type}
               sx={{
-                mt: { xs: 1, md: 0 }, // Reduce margin-top for small screens
+                // mt: { xs: 1, md: 0 }, // Reduce margin-top for small screens
                 mb: { xs: 0, md: 3 }, // Reduce margin-bottom for small screens
               }}
               data-aos="fade-up-right"
