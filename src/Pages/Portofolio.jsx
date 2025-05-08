@@ -13,8 +13,8 @@ import CardProject from "../components/CardProject";
 import TechStackIcon from "../components/TechStackIcon";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Certificate from "../components/Certificate";
-import { Code, Award, Boxes } from "lucide-react";
+import Qualifications from "../components/Qualifications";
+import { Code, Award, Boxes, GraduationCap } from "lucide-react";
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -122,11 +122,11 @@ export default function FullWidthTabs() {
   const theme = useTheme();
   const [value, setValue] = useState(0);
   var [projects, setProjects] = useState([]);
-  const [certificates, setCertificates] = useState([]);
   const [showAllProjects, setShowAllProjects] = useState(false);
-  const [showAllCertificates, setShowAllCertificates] = useState(false);
   const isMobile = window.innerWidth < 768;
   const initialItems = isMobile ? 4 : 6;
+  // const [certificates, setCertificates] = useState([]);
+  // const [showAllCertificates, setShowAllCertificates] = useState(false);
 
   useEffect(() => {
     // Initialize AOS once
@@ -230,8 +230,8 @@ export default function FullWidthTabs() {
         "Real-time data visualization (appointments, revenue) and automated reminders to improve workflow efficiency.",
         "Built with Laravel for robust backend logic and a responsive UI for desktop/mobile clinic staff."
       ],
-      "Link": "https://zoa.ai/",  
-      "Img": "/zoa.ai_ (1).png",  
+      "Link": "https://zoa.ai/",
+      "Img": "/zoa.ai_ (1).png",
       "TechStack": [
         "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "GitHub"
       ],
@@ -435,16 +435,12 @@ export default function FullWidthTabs() {
   useEffect(() => {
     localStorage.setItem("projects", JSON.stringify(projects));
   }, [])
-  const toggleShowMore = useCallback((type) => {
-    if (type === 'projects') {
-      setShowAllProjects(prev => !prev);
-    } else {
-      setShowAllCertificates(prev => !prev);
-    }
+  const toggleShowMore = useCallback(() => {
+    setShowAllProjects(prev => !prev);
   }, []);
 
   const displayedProjects = showAllProjects ? projects : projects.slice(0, initialItems);
-  const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
+  // const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
 
   return (
     <div className="md:px-[10%] px-[5%] w-full sm:mt-0 mt-[3rem] bg-[#030014] overflow-hidden" id="Portofolio">
@@ -543,8 +539,8 @@ export default function FullWidthTabs() {
               {...a11yProps(0)}
             />
             <Tab
-              icon={<Award className="mb-2 w-5 h-5 transition-all duration-300" />}
-              label="Certificates"
+              icon={<GraduationCap className="mb-2 w-5 h-5 transition-all duration-300" />}
+              label="Qualifications"
               {...a11yProps(1)}
             />
             <Tab
@@ -592,7 +588,7 @@ export default function FullWidthTabs() {
 
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="container mx-auto flex justify-center items-center overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
               {displayedCertificates.map((certificate, index) => (
                 <div
                   key={index}
@@ -602,16 +598,19 @@ export default function FullWidthTabs() {
                   <Certificate ImgSertif={certificate.Img} />
                 </div>
               ))}
+            </div> */}
+            <div className="w-full">
+              <Qualifications />
             </div>
           </div>
-          {certificates.length > initialItems && (
+          {/* {certificates.length > initialItems && (
             <div className="mt-6 w-full flex justify-start">
               <ToggleButton
                 onClick={() => toggleShowMore('certificates')}
                 isShowingMore={showAllCertificates}
               />
             </div>
-          )}
+          )} */}
         </TabPanel>
 
         <TabPanel value={value} index={2} dir={theme.direction}>

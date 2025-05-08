@@ -24,7 +24,7 @@ const Qualifications = () => {
           title: "Bachelor of Science in Computer Science (Honours)",
           institution: "Government College University, Faisalabad, Pakistan",
           year: "2020 - 2024",
-          marks: "CGPA: 3.30/4.00",
+          marks: "CGPA: 3.55/4.00",
         },
         {
           title: "Intermediate of Computer Science (ICS)",
@@ -87,7 +87,7 @@ const Qualifications = () => {
       sx={{
         display: "grid",
         gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
-        gap: 5,
+        gap: { xs: 3, md: 5 },
         width: "100%",
       }}
     >
@@ -98,7 +98,10 @@ const Qualifications = () => {
           .map((qual, index) => (
             <Box
               key={qual.type}
-              sx={{ mb: 3 }}
+              sx={{
+                mt: { xs: 1, md: 0 }, // Reduce margin-top for small screens
+                mb: { xs: 0, md: 3 }, // Reduce margin-bottom for small screens
+              }}
               data-aos="fade-up-right"
               data-aos-duration="1000"
             >
@@ -149,7 +152,9 @@ const Qualifications = () => {
           .map((qual, index) => (
             <Box
               key={qual.type}
-              sx={{ mb: 3 }}
+              sx={{
+                mb: { xs: 3, md: 3 }, // Reduce margin-bottom for small screens
+              }}
               data-aos="fade-up-left"
               data-aos-duration="1200"
             >
