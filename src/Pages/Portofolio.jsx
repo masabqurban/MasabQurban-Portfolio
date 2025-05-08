@@ -100,7 +100,7 @@ function a11yProps(index) {
   };
 }
 
-const techStacks = [
+export const techStacks = [
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
   { icon: "javascript.svg", language: "JavaScript" },

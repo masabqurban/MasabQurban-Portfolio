@@ -1,7 +1,9 @@
 import React, { useEffect, memo, useMemo } from "react"
-import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react"
+import { FileText, Code, Award, Boxes, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { techStacks } from "./Portofolio"; // Import techStacks array
+
 
 // Memoized Components
 const Header = memo(() => (
@@ -168,9 +170,9 @@ const AboutPage = () => {
     {
       icon: Award,
       color: "from-[#a855f7] to-[#6366f1]",
-      value: totalCertificates,
-      label: "Certificates",
-      description: "Professional skills validated",
+      value: `${techStacks.length}`, 
+      label: "Professional Skills",
+      description: "Professional skills validated", //Professional skills validated
       animation: "fade-up",
     },
     {
