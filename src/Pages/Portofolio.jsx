@@ -231,7 +231,7 @@ export default function FullWidthTabs() {
         "Built with Laravel for robust backend logic and a responsive UI for desktop/mobile clinic staff."
       ],
       "Link": "https://zoa.ai/",
-      "Img": "/zoa.ai_ (1).png",
+      "Img": "/zoa.ai_.png",
       "TechStack": [
         "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "GitHub"
       ],
