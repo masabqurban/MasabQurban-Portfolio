@@ -24,7 +24,7 @@ const Qualifications = () => {
           title: "Bachelor of Science in Computer Science (Honours)",
           institution: "Government College University, Faisalabad, Pakistan",
           year: "2020 - 2024",
-          marks: "CGPA: 3.45/4.00",
+          marks: "CGPA: 3.35/4.00",
         },
         {
           title: "Intermediate of Computer Science (ICS)",
