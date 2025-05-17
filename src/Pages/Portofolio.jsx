@@ -295,7 +295,7 @@ export default function FullWidthTabs() {
         "Built with PHP Laravel and Tailwind CSS, the RMS system features a sleek, modern interface with intuitive navigation for quick and efficient transactions."
       ],
       "Link": "",
-      "Img": "/RMS.png",
+      "Img": "/POS.png",
       "TechStack": [
         "Laravel", "Tailwind CSS", "JavaScript", "GitHub"
       ],
