@@ -21,7 +21,7 @@ Welcome to My Modern Portfolio, a polished developer portfolio with sleek AOS an
 - Vercel
 
 Website Link:
-https://masabqurban-portfolio.vercel.app/
+https://masabqurban.vercel.app/
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
 
