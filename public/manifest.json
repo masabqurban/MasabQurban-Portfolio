@@ -2,7 +2,7 @@
     "id": "/",
     "name": "Masab Qurban - Portfolio",
     "short_name": "Masab Qurban",
-    "description": "Portfolio of Masab Qurban, a Front-End Web Developer specializing in React and modern web technologies.",
+    "description": "Welcome to my portfolio! I am Masab Qurban, a Full-Stack Web Developer specializing in building scalable, responsive, and user-friendly web applications. Explore my work here!",
     "start_url": ".",
     "scope": "/",
     "display": "standalone",
@@ -36,13 +36,13 @@
     ],
     "screenshots": [
         {
-            "src": "preview-image.png",
+            "src": "Masab-Qurban-Portfolio-(landscape).png",
             "sizes": "3840x2160",
             "type": "image/png",
             "form_factor": "wide"
         },
         {
-            "src": "/screenshot-portrait.png",
+            "src": "/Masab-Qurban-Portfolio-(portrait).png",
             "sizes": "824x1766",
             "type": "image/png",
             "form_factor": "narrow"
