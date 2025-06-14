@@ -1,7 +1,8 @@
 # React + Vite  
 ## My Modern Portfolio
 #### Modern Animations & Professional Showcase | React + Firebase
-Hello everyone!  
+Hello everyone! 
+I am Masab Qurban, a Full-Stack Web Developer, 
 Welcome to My Modern Portfolio, a polished developer portfolio with sleek AOS animations, Firebase integration, and modern UI components. Focused on UI/UX, scalability, and professional presentation.
 
 ### Project Status: 🚀  
@@ -21,7 +22,7 @@ Welcome to My Modern Portfolio, a polished developer portfolio with sleek AOS an
 - Vercel
 
 Website Link:
-https://masabqurban.vercel.app/
+https://www.masabqurban.com/ 
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 
 
