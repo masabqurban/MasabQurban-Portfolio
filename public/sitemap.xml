@@ -6,5 +6,41 @@
     <lastmod>2025-06-14</lastmod>
     <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://masabqurban.com/</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.90</priority>
+  </url>
 
-  </urlset>
+  <url>
+    <loc>https://www.masabqurban.com/project/tool-matrix</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.masabqurban.com/project/snowdreamstudios</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.masabqurban.com/project/estorefoam</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.masabqurban.com/project/zoa-vet</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.masabqurban.com/project/png-to-text</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.masabqurban.com/project/sds-erp</loc>
+    <lastmod>2025-06-14</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
