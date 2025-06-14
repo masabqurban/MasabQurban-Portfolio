@@ -1,0 +1,6 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Location of sitemap file
+Sitemap: https://masabqurban.com/sitemap.xml
